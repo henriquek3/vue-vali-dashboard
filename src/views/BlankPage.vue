@@ -22,7 +22,10 @@
 
 <script>
     export default {
-        name: "BlankPage"
+        name: "BlankPage",
+        data() {
+            return {}
+        }
     }
 </script>
 

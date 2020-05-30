@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url(https://fonts.googleapis.com/css?family=Exo+2&display=swap);
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+@import "~vali-admin/src/sass/main";
+
+// Custom Theme
+@import "custom-radio-n-checkbox";
+@import "header";
+
+$fa-font-path: "~@fortawesome/fontawesome-free-webfonts/webfonts";
+@import "~@fortawesome/fontawesome-free-webfonts/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free-webfonts/scss/fa-solid.scss";
+@import "~@fortawesome/fontawesome-free-webfonts/scss/fa-regular.scss";
+@import "~@fortawesome/fontawesome-free-webfonts/scss/fa-brands.scss";
+
+// SweetAlert2
+@import "~sweetalert2/src/sweetalert2";
+@import "~izitoast/dist/css/iziToast.min.css";
+@import "~css-ripple-effect/dist/ripple.min.css";
